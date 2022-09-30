@@ -1,0 +1,15 @@
+//
+//  PrefixHeader.pch
+//  彩票
+//
+//  Created by MAC on 2022/9/28.
+//
+
+//Users/mac/Desktop/learn/进阶/彩票/彩票/Other/AppDelegate.m error build: Build input file cannot be found: '/Users/mac/Desktop/learn/进阶/彩票/1
+
+//Users/mac/Desktop/learn/进阶/彩票/彩票/Other/PrefixHeader.pch
+
+
+#define kScreenSize [UIScreen mainScreen].bounds
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
