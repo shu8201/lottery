@@ -27,7 +27,7 @@
     self.viewControllers = @[v1,v2,v3,v4,v5];
     
     COCTabBar *tabbar = [[COCTabBar alloc] init];
-    tabbar.frame = self.tabBar.frame;
+    tabbar.frame = self.tabBar.bounds;
     
     
     for (int i = 0; i < self.viewControllers.count; i++) {
@@ -42,7 +42,7 @@
         self.selectedIndex = index;
     };
     
-    [self.view addSubview:tabbar];
+    [self.tabBar addSubview:tabbar];
     
 }
 

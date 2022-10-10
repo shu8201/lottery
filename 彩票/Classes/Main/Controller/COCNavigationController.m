@@ -19,7 +19,13 @@
     [self.navigationBar setBackgroundImage:[UIImage imageNamed:@"NavBar64"] forBarMetrics:UIBarMetricsDefault];
     
     [self.navigationBar setTitleTextAttributes: @{NSForegroundColorAttributeName : [UIColor whiteColor]}];
+    
+    [self.navigationBar setTintColor:[UIColor whiteColor]];
 }
 
+- (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated{
+    viewController.hidesBottomBarWhenPushed = YES;
+    [super pushViewController:viewController animated:animated];
+}
 
 @end

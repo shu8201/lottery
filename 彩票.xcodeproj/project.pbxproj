@@ -23,7 +23,13 @@
 		041FF76428E43A1100A1D3C2 /* COCTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 041FF76328E43A1100A1D3C2 /* COCTabBar.m */; };
 		041FF76A28E4444C00A1D3C2 /* COCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041FF76928E4444C00A1D3C2 /* COCNavigationController.m */; };
 		041FF76D28E4467400A1D3C2 /* COCHallController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041FF76C28E4467400A1D3C2 /* COCHallController.m */; };
+		044BDD4128F1682600BF3335 /* COCMyLotteryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044BDD4028F1682600BF3335 /* COCMyLotteryController.m */; };
+		04917F1028F151220049348F /* UIView+COCFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 04917F0F28F151220049348F /* UIView+COCFrame.m */; };
+		04917F1328F152490049348F /* COCButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 04917F1228F152490049348F /* COCButton.m */; };
+		04917F1628F156F90049348F /* COCGroupController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04917F1528F156F90049348F /* COCGroupController.m */; };
 		0495FF1428E533FB009F320D /* COCArenaController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0495FF1328E533FB009F320D /* COCArenaController.m */; };
+		04CDDE3928F16D80008C6B5F /* COCLuckController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CDDE3828F16D80008C6B5F /* COCLuckController.m */; };
+		04CDDE3C28F16FAB008C6B5F /* COCSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CDDE3B28F16FAB008C6B5F /* COCSettingController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,8 +76,20 @@
 		041FF76928E4444C00A1D3C2 /* COCNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = COCNavigationController.m; sourceTree = "<group>"; };
 		041FF76B28E4467400A1D3C2 /* COCHallController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = COCHallController.h; sourceTree = "<group>"; };
 		041FF76C28E4467400A1D3C2 /* COCHallController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = COCHallController.m; sourceTree = "<group>"; };
+		044BDD3F28F1682600BF3335 /* COCMyLotteryController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = COCMyLotteryController.h; sourceTree = "<group>"; };
+		044BDD4028F1682600BF3335 /* COCMyLotteryController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = COCMyLotteryController.m; sourceTree = "<group>"; };
+		04917F0E28F151220049348F /* UIView+COCFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+COCFrame.h"; sourceTree = "<group>"; };
+		04917F0F28F151220049348F /* UIView+COCFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+COCFrame.m"; sourceTree = "<group>"; };
+		04917F1128F152490049348F /* COCButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = COCButton.h; sourceTree = "<group>"; };
+		04917F1228F152490049348F /* COCButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = COCButton.m; sourceTree = "<group>"; };
+		04917F1428F156F90049348F /* COCGroupController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = COCGroupController.h; sourceTree = "<group>"; };
+		04917F1528F156F90049348F /* COCGroupController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = COCGroupController.m; sourceTree = "<group>"; };
 		0495FF1228E533FB009F320D /* COCArenaController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = COCArenaController.h; sourceTree = "<group>"; };
 		0495FF1328E533FB009F320D /* COCArenaController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = COCArenaController.m; sourceTree = "<group>"; };
+		04CDDE3728F16D80008C6B5F /* COCLuckController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = COCLuckController.h; sourceTree = "<group>"; };
+		04CDDE3828F16D80008C6B5F /* COCLuckController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = COCLuckController.m; sourceTree = "<group>"; };
+		04CDDE3A28F16FAB008C6B5F /* COCSettingController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = COCSettingController.h; sourceTree = "<group>"; };
+		04CDDE3B28F16FAB008C6B5F /* COCSettingController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = COCSettingController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +203,8 @@
 		041FF73328E41F2500A1D3C2 /* Comman */ = {
 			isa = PBXGroup;
 			children = (
+				04917F0E28F151220049348F /* UIView+COCFrame.h */,
+				04917F0F28F151220049348F /* UIView+COCFrame.m */,
 			);
 			path = Comman;
 			sourceTree = "<group>";
@@ -210,6 +230,10 @@
 		041FF73728E4242400A1D3C2 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				04917F1428F156F90049348F /* COCGroupController.h */,
+				04917F1528F156F90049348F /* COCGroupController.m */,
+				04CDDE3728F16D80008C6B5F /* COCLuckController.h */,
+				04CDDE3828F16D80008C6B5F /* COCLuckController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -218,6 +242,8 @@
 			isa = PBXGroup;
 			children = (
 				041FF75528E4258600A1D3C2 /* Discovery.storyboard */,
+				04917F1128F152490049348F /* COCButton.h */,
+				04917F1228F152490049348F /* COCButton.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -337,6 +363,10 @@
 		041FF74628E4242500A1D3C2 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				044BDD3F28F1682600BF3335 /* COCMyLotteryController.h */,
+				044BDD4028F1682600BF3335 /* COCMyLotteryController.m */,
+				04CDDE3A28F16FAB008C6B5F /* COCSettingController.h */,
+				04CDDE3B28F16FAB008C6B5F /* COCSettingController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -573,12 +603,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04917F1028F151220049348F /* UIView+COCFrame.m in Sources */,
+				04917F1628F156F90049348F /* COCGroupController.m in Sources */,
+				04CDDE3928F16D80008C6B5F /* COCLuckController.m in Sources */,
 				041FF76D28E4467400A1D3C2 /* COCHallController.m in Sources */,
 				0495FF1428E533FB009F320D /* COCArenaController.m in Sources */,
 				041FF6FA28E3F4A100A1D3C2 /* AppDelegate.m in Sources */,
+				04CDDE3C28F16FAB008C6B5F /* COCSettingController.m in Sources */,
 				041FF70B28E3F4A300A1D3C2 /* main.m in Sources */,
 				041FF76128E42BD200A1D3C2 /* COCTabBarController.m in Sources */,
 				041FF76428E43A1100A1D3C2 /* COCTabBar.m in Sources */,
+				044BDD4128F1682600BF3335 /* COCMyLotteryController.m in Sources */,
+				04917F1328F152490049348F /* COCButton.m in Sources */,
 				041FF76A28E4444C00A1D3C2 /* COCNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -762,7 +798,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "wsec.LC.--";
+				PRODUCT_BUNDLE_IDENTIFIER = wsec.LC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -797,7 +833,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "wsec.LC.--";
+				PRODUCT_BUNDLE_IDENTIFIER = wsec.LC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
